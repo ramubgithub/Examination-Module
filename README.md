@@ -22,3 +22,14 @@
 ```bash
 git clone https://github.com/ramubgithub/Examination-Module.git
 cd Examination-Module
+
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/ramubgithub/Examination-Module.git
+cd Examination-Module
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/ramubgithub/Examination-Module.git
+cd Examination-Module
