@@ -33,20 +33,3 @@ It allows users to register, login, take exams with a timer, and view results.
 git clone <your-repo-url>
 cd project-folder
 
-
----
-
-## 🔥 Why this version is better
-- ✅ Includes request/response JSON  
-- ✅ Shows headers (JWT auth)  
-- ✅ Clean structure (interview-ready)  
-- ✅ Looks like real production API docs  
-
----
-
-If you want next upgrade:
-👉 Swagger API docs (auto-generated UI)  
-👉 Postman collection export  
-👉 Add screenshots + live demo badge  
-
-Just tell me 👍
