@@ -1,35 +1,24 @@
-# 🧪 Online Examination System (MERN Stack)
+# 📘 Examination Module
 
-## 📌 Overview
-This is a full-stack **Online Examination System** built using the MERN stack.  
-It allows users to register, login, take exams with a timer, and view results.
+## 🚀 Tech Stack
 
----
+### Frontend
+- React.js  
+- Redux (if used)  
+- HTML5, CSS3, JavaScript  
 
-# 🚀 Tech Stack
+### Backend
+- Node.js  
+- Express.js  
 
-## Frontend
-- React.js (Vite)
-- React Router DOM
-- Axios
-- CSS (Responsive Design)
-
-## Backend
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-
-## Other Tools
-- JWT (Authentication)
-- dotenv (Environment variables)
-- Nodemon (Development)
+### Database
+- MongoDB (MongoDB Atlas / Local)
 
 ---
 
-# ⚙️ Steps to Run the Project
+## ⚙️ Steps to Run the Project
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd project-folder
-
+git clone https://github.com/ramubgithub/Examination-Module.git
+cd Examination-Module
