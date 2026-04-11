@@ -47,10 +47,13 @@ Frontend runs on: http://localhost:3000
 Backend runs on: http://localhost:5000
 
 🔗 API Endpoints
+
 🧑 User APIs
 Method	Endpoint	Description
 POST	/api/users/register	Register new user
 POST	/api/users/login	Login user
+
+
 📝 Exam APIs
 Method	Endpoint	Description
 GET	/api/exams	Get all exams
@@ -67,6 +70,8 @@ GET	/api/results/:userId	Get user results
 
 
 📁 Project Structure
+
+
 Examination-Module/
 │
 ├── backend/
