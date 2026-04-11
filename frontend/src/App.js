@@ -1,3 +1,5 @@
+import "./styles/global.css";
+
 import Result from "./pages/Result";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";

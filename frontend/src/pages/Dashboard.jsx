@@ -1,3 +1,4 @@
+import "../styles/global.css";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
@@ -8,7 +9,7 @@ export default function Dashboard() {
     <>
       <Navbar />
 
-      <div style={{ textAlign: "center" }}>
+      <div className="container">
         <h2>Exam Dashboard</h2>
 
         <p>Total Time: 20 Minutes</p>

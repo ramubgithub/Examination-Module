@@ -1,4 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
+import "../styles/global.css";
 
 export default function Result() {
   const { state } = useLocation();
@@ -8,7 +9,7 @@ export default function Result() {
   const total = state?.total || 0;
 
   return (
-    <div style={{ textAlign: "center", marginTop: "100px" }}>
+    <div className="container">
       <h2>Exam Result</h2>
       <h3>{score} / {total}</h3>
 

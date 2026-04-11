@@ -1,3 +1,4 @@
+import "../styles/global.css"; 
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
@@ -9,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <div style={{ padding: 10, background: "#222", color: "#fff" }}>
+    <div className="navbar">
       <button onClick={() => navigate("/dashboard")}>Dashboard</button>
       <button onClick={() => navigate("/exams")}>Exams</button>
       <button onClick={logout}>Logout</button>
