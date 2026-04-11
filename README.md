@@ -75,13 +75,71 @@ GET	/api/results/:userId	Get user results
 Examination-Module/
 │
 ├── backend/
-│   ├── models/
-│   ├── routes/
+│
+├── src/
+│   ├── config/
+│   │   ├── db.js
+│   │   └── logger.js
+│   │
 │   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── exam.controller.js
+│   │   └── question.controller.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   └── error.middleware.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Exam.js
+│   │   └── Question.js
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   ├── exam.routes.js
+│   │   └── question.routes.js
+│   │
+│   ├── services/
+│   │   └── token.service.js
+│   │
+│   ├── app.js
 │   └── server.js
 │
-├── frontend/
-│   ├── src/
-│   └── public/
+├── logs/
+│   └── app.log
 │
-└── README.md
+├── .env
+├── .env.example
+├── package.json
+└── .gitignore
+|
+├── frontend/
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── axios.js
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Exams.jsx
+│   │   │   └── Questions.jsx
+│   │   │   
+│   │   ├── styles/
+│   │   │   └── global.css
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   ├── .env
+│   └── package.json
