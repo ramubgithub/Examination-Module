@@ -4,8 +4,7 @@
 
 ### Frontend
 - React.js  
-- Redux (if used)  
-- HTML5, CSS3, JavaScript  
+- JavaScript  
 
 ### Backend
 - Node.js  
@@ -49,24 +48,30 @@ Backend runs on: http://localhost:5000
 🔗 API Endpoints
 
 🧑 User APIs
-Method	Endpoint	Description
+
+Method	Endpoint	        Description
+
 POST	/api/users/register	Register new user
 POST	/api/users/login	Login user
 
 
 📝 Exam APIs
-Method	Endpoint	Description
-GET	/api/exams	Get all exams
-POST	/api/exams	Create exam
-GET	/api/exams/:id	Get exam by ID
-PUT	/api/exams/:id	Update exam
+
+Method	Endpoint	    Description
+
+GET	    /api/exams	    Get all exams
+POST	/api/exams	    Create exam
+GET	    /api/exams/:id	Get exam by ID
+PUT	    /api/exams/:id	Update exam
 DELETE	/api/exams/:id	Delete exam
 
 
 📊 Result APIs
-Method	Endpoint	Description
-POST	/api/results	Submit result
-GET	/api/results/:userId	Get user results
+
+Method	Endpoint	            Description
+
+POST	/api/results	        Submit result
+GET	    /api/results/:userId	Get user results
 
 
 📁 Project Structure
@@ -110,11 +115,8 @@ Examination-Module/
 │   └── app.log
 │
 ├── .env
-├── .env.example
 ├── package.json
 └── .gitignore
-|
-├── frontend/
 │
 ├── frontend/
 │   ├── public/
